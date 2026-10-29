@@ -7,8 +7,8 @@ Companion to the prompting guide in [README.md](README.md).
 
 ## TL;DR
 
-- **Your current model, DeepSeek V4.1 Flash 1017, is still the best all-rounder** in its price range — and the most-used model on OpenRouter. Nothing cheaper clearly beats it.
-- **GLM-5.3 Flash** is the crazy-cheap pick: ~5× less expensive, almost the same score.
+- **Your team's current model is DeepSeek V4 Flash 0731 — the lowest scorer on this chart (12/100†).** The upgrade to make is **DeepSeek V4.1 Flash 1017** (score 39, $0.26/1M): its direct successor, and the most-used model on OpenRouter.
+- **GLM-5.3 Flash** is the crazy-cheap pick: ~5× less expensive than V4.1 Flash, almost the same score.
 - **Claude Haiku 5.5** is the best "smart but cheap" pick.
 - **GLM-5.3** is the best cheap model for big agent jobs (multi-file changes, long refactors).
 - **Avoid GPT-6 Luna and MiniMax M3.1 Flash for robot code** — cheap and popular, but weak at agentic coding and/or high rates of making things up.
@@ -21,14 +21,17 @@ Companion to the prompting guide in [README.md](README.md).
 | Model (OpenRouter ID) | Price /1M | Score /100 | Notes |
 |---|---|---|---|
 | `z-ai/glm-5.3-flash` | $0.05 | 37 | Cheapest good coder |
+| `deepseek/deepseek-v4-flash-0731` | $0.15 | 12† | **Your team's current model** (deprecated) |
 | `xiaomi/mimo-v2.6-flash` | $0.18 | 32 | New; very cheap, solid |
 | `anthropic/claude-haiku-5.5` | $0.20 | 37 | Best cheap "brain" |
 | `openai/gpt-6-luna` | $0.20 | 27 | ⚠ weak at agent work |
-| `deepseek/deepseek-v4.1-flash-1017` | $0.26 | 39 | Current default — keep |
+| `deepseek/deepseek-v4.1-flash-1017` | $0.26 | 39 | Best all-rounder — the upgrade to make |
 | `minimax/minimax-m3.1-flash` | $0.26 | 32 | ⚠ makes things up often |
 | `qwen/qwen3.8-27b` | $0.34 | 20 | Cheap in, weak agent |
 | `z-ai/glm-5.3` | $0.40 | 41 | Best cheap agent coder |
 | `stepfun/step-5-preview` | $1.43 | 36 | Popular; near the cap |
+
+† FrontierCode has not been run on DeepSeek V4 Flash, so its score is Terminal-Bench 4.0 alone — every other score averages the two benchmarks.
 
 ### For reference — the ladder up to Claude Opus 5.5
 
@@ -74,7 +77,7 @@ Free tiers are rate-limited, can be slow, and usually allow your data to be used
 ## Sources
 
 - **OpenRouter** — model list & prices: https://openrouter.ai/models · weekly usage rankings: https://openrouter.ai/rankings
-- **Artificial Analysis** — coding-agent benchmarks: https://artificialanalysis.ai/agents/coding-agents · per-model pages: https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017 *(swap the model name in the URL for the others)*
+- **Artificial Analysis** — coding-agent benchmarks: https://artificialanalysis.ai/agents/coding-agents · per-model pages: https://artificialanalysis.ai/models/deepseek-v4-flash *(swap the model name in the URL for the others)*
 - **DeepSeek docs** — https://api-docs.deepseek.com/
 
 *Prices are OpenRouter's listed rates at snapshot time and can differ by region/provider (e.g. GLM-5.3 Flash is listed from ~$0.03 up, and Z.ai's direct API price is higher). Check the model page before relying on exact costs.*
