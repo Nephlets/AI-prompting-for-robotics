@@ -2,7 +2,7 @@
 
 **Short answer: DeepSeek V4.1 Flash 1017.** It costs about **1.7× more** but scores about **2.8× higher on agentic code reasoning** (Terminal-Bench 4.0: 12% → 34%), and it's the version DeepSeek still supports. Details below.
 
-Companion guides: [README.md](README.md) (how to prompt) · [README-coding-models.md](README-coding-models.md) (full model chart).
+Companion guides: [Prompting-AI-for-FRC-robotics.md](Prompting-AI-for-FRC-robotics.md) (how to prompt) · [README-coding-models.md](README-coding-models.md) (full model chart).
 
 *Snapshot: 2026-10-29. Prices and lineups change; all links are at the end.*
 
