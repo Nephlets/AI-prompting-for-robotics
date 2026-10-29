@@ -2,7 +2,7 @@
 
 Every score our readmes quote comes from a public benchmark. This page explains what each one tests, how it is run, and how it is scored — so you can tell a real capability difference from a formatting change.
 
-Companion guides: [README.md](README.md) (how to prompt) · [README-coding-models.md](README-coding-models.md) (model chart) · [README-v4-vs-v4.1-flash.md](README-v4-vs-v4.1-flash.md) (DeepSeek comparison).
+Companion guides: [Prompting-AI-for-FRC-robotics.md](Prompting-AI-for-FRC-robotics.md) (how to prompt) · [README-coding-models.md](README-coding-models.md) (model chart) · [README-v4-vs-v4.1-flash.md](README-v4-vs-v4.1-flash.md) (DeepSeek comparison).
 
 *Snapshot: 2026-10-29. Benchmark suites change; the version history and links below track that.*
 
