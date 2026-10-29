@@ -2,7 +2,7 @@
 
 These are all the sources behind the repo's four guides, condensed into one place. Each entry says what we took from it, and which guide uses it.
 
-Guides: [README.md](README.md) (how to prompt) · [README-coding-models.md](README-coding-models.md) (model chart) · [README-v4-vs-v4.1-flash.md](README-v4-vs-v4.1-flash.md) (DeepSeek comparison) · [README-benchmarks-explained.md](README-benchmarks-explained.md) (benchmarks explained).
+Guides: [Prompting-AI-for-FRC-robotics.md](Prompting-AI-for-FRC-robotics.md) (how to prompt) · [README-coding-models.md](README-coding-models.md) (model chart) · [README-v4-vs-v4.1-flash.md](README-v4-vs-v4.1-flash.md) (DeepSeek comparison) · [README-benchmarks-explained.md](README-benchmarks-explained.md) (benchmarks explained).
 
 *Snapshot: 2026-10-29. Links can move; the notes record what each source contributed at the time.*
 
