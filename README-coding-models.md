@@ -1,7 +1,7 @@
 # Cheapest Good AI Models for FRC Robot Code (WPILib Java)
 
 A short guide to the best price-for-performance models for coding with **Kilo Code → OpenRouter**.
-Companion to the prompting guide in [README.md](README.md).
+Companion to the prompting guide in [Prompting-AI-for-FRC-robotics.md](Prompting-AI-for-FRC-robotics.md).
 
 *Snapshot: 2026-10-29. Model lineups and prices change weekly — links are in [Sources](#sources).*
 
